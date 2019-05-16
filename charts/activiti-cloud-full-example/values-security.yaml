@@ -252,7 +252,7 @@ rabbitmq:
   replicaCount: 1
   ingress:
     enabled: false
-    #    hostName: "rabbitmq.jx-staging.X.X.X.X.nip.io"
+    #    hostName: "rabbitmq.example-master-38.X.X.X.X.nip.io"
     path: /
     annotations:
       kubernetes.io/ingress.class: nginx
