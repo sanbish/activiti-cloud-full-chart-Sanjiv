@@ -1,0 +1,36 @@
+dependencies:
+- name: activiti-cloud-identity
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 0.0.5
+- name: activiti-keycloak
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 0.0.21
+- name: activiti-cloud-gateway
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 7.1.12
+- name: activiti-cloud-query
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 7.1.87
+- name: activiti-cloud-audit
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 7.1.96
+- name: rabbitmq-ha
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 1.19.0
+- name: postgresql
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 3.11.3
+- name: runtime-bundle
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 7.1.122
+- name: activiti-cloud-connector
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 7.1.105
+- name: activiti-cloud-notifications-graphql
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 7.1.83
+- name: activiti-cloud-modeling
+  repository: https://activiti.github.io/activiti-cloud-helm-charts/
+  version: 7.1.159
+digest: sha256:ec89d7e11bc19cb445029c797164fd7e845c2554d06dc4544e3c9d0c267c57f8
+generated: 2019-05-30T14:35:06.142020806Z
