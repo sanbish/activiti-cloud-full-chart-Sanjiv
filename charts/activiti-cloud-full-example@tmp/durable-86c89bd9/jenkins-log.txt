@@ -1,0 +1,4 @@
++ make tag
+sed -i -e "s/version:.*/version: 2.12.2/" Chart.yaml
+sed -i -e "s/tag: .*/tag: 7.1.66/" values.yaml
+git add --all
