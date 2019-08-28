@@ -52,7 +52,7 @@ global:
 
     ## Set to configure gateway domain template, i.e. {{ .Release.Namespace }}.1.3.4.5.nip.io
     #  helm upgrade activiti . --install --set global.gateway.domain=1.2.3.4.nip.io
-    domain: "REPLACEME"
+    domain: "activiti.idealcloud.tv"
 
     ## Configure global annotations for all service ingresses, i.e. 
     annotations: 
